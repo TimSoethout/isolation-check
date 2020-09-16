@@ -1,5 +1,5 @@
 # borrowed from https://github.com/kelvich/tlaplus_jupyter/blob/master/Dockerfile
-FROM openjdk:13-alpine3.10
+FROM openjdk:16-jdk-alpine
 
 RUN apk add --update gcc libc-dev zeromq-dev python3-dev linux-headers
 
