@@ -1,5 +1,5 @@
 # borrowed from https://github.com/kelvich/tlaplus_jupyter/blob/master/Dockerfile
-FROM adoptopenjdk:14-jdk-hotspot
+FROM adoptopenjdk/openjdk14:alpine
 
 RUN apk add --update gcc libc-dev zeromq-dev python3-dev linux-headers
 
